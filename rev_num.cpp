@@ -3,7 +3,8 @@ using namespace std;
 class Solution {
 public:
     int reverse(int x) {
-        const int mx=INT_MAX/10,mn=INT_MIN/10;
+        const int mx=INT_MAX/10;
+		const int mn=INT_MIN/10;
         int rev=0,last_dig=0;
 	    {
             while(x!=0)
